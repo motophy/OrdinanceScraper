@@ -1,0 +1,123 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>하남시와 구미시 조례 비교</title>
+        <style>
+            body { 
+                font-family: 'Malgun Gothic', Arial, sans-serif; 
+                padding: 20px; 
+                line-height: 1.6; 
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .diff-container { 
+                display: flex; 
+                flex-direction: column; 
+                gap: 30px; 
+            }
+            .diff-section {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                overflow: hidden;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+            .section-title {
+                background-color: #4a6ea9;
+                color: white;
+                padding: 10px 15px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .diff-row { 
+                display: flex;
+                flex-direction: row;
+                border-bottom: 1px solid #e4e4e4;
+            }
+            .diff-row:last-child {
+                border-bottom: none;
+            }
+            .city-column {
+                width: 90px;  /* 시군구명을 위한 고정 너비 칼럼 */
+                padding: 15px;
+                background-color: #f0f5ff;
+                font-weight: bold;
+                color: #2c3e50;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-right: 1px solid #ddd;
+            }
+            .content-column {
+                flex: 1;  /* 조항 내용을 위한 확장 칼럼 */
+                padding: 15px;
+                background-color: #f9f9f9;
+            }
+            .diff { 
+                background-color: #ffcccc; 
+                padding: 2px 4px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            h1 {
+                color: #2c3e50;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .item-num {
+                font-weight: bold;
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>하남시와 구미시 조례 비교</h1>
+
+        <div class="diff-container">
+    
+            <div class="diff-section">
+                <div class="section-title">조례 제목</div>
+                <div class="diff-row">
+                    <div class="city-column">하남시</div>
+                    <div class="content-column">제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.</div>
+                </div>
+                <div class="diff-row">
+                    <div class="city-column">구미시</div>
+                    <div class="content-column">제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다.</div>
+                </div>
+            </div>
+        
+            <div class="diff-section">
+                <div class="section-title">조항 1</div>
+                <div class="diff-row">
+                    <div class="city-column">하남시</div>
+                    <div class="content-column"><span class="item-num">1.</span> "공용차량"이란 <span class="diff">하남</span>시청<span class="diff"> 및 그 소</span>속기관이 소유하고 있는 승용자동차<span class="diff"> 또는</span> 12인승 이하의 승합자동차를 말한다.
+2. "공용차량 공유사업"이란 「관공서의 공휴일에 관한 규정」제2조<span class="diff"> 또는</span> 제3조에 따른 <span class="diff">공휴일 또는 </span>대체공휴일<span class="diff">이나</span> 토요일(이하 "공휴일 등"이라 한다)에 공무에 사용하지 <span class="diff">않</span>는 공용차량을 이 조례에 따라 <span class="diff">하남</span>시민(이하 "시민"이라 한다)에게 무상으로 이용할 수 있게 하는 사업을 말한다.
+3. "이용대상자"란 공용차량 공유사업에 따라 공휴일등에 공용차량을 자신<span class="diff">이 직접</span> 운전하<span class="diff">거나 자신을 위하여 다른 사람에게 운전하</span>도록 지정하<span class="diff">는 방법으로</span> 이용할 수 있는 <span class="diff">자격을 가진</span> 시민을 말한다.</div>
+                </div>
+                <div class="diff-row">
+                    <div class="city-column">구미시</div>
+                    <div class="content-column"><span class="item-num">1.</span> "공용차량"이란 <span class="diff">구미</span>시<span class="diff"> 본</span>청<span class="diff">, 직</span>속기관<span class="diff">, 사업소, 의회사무국</span>이 소유하고 있는 승용자동차<span class="diff">,</span> 12인승 이하의 승합자동차<span class="diff"> 또는 1톤 이하의 화물차</span>를 말한다.
+2. "공용차량 공유사업"이란 「관공서의 공휴일에 관한 규정」<span class="diff"> </span>제2조<span class="diff">에 따른 공휴일, 같은 규정</span> 제3조에 따른 대체공휴일<span class="diff"> 또는</span> 토요일(이하 "공휴일 등"이라 한다)에 공무에 사용하지 <span class="diff">아니하</span>는 공용차량을 이 조례에 따라 <span class="diff">구미</span>시민(이하 "시민"이라 한다)에게 무상으로 이용할 수 있게 하는 사업을 말한다.<span class="diff">  <개정 2023.4.5.></span>
+3. "이용대상자"란 공용차량 공유사업에 따라 공휴일<span class="diff"> </span>등에 공용차량을<span class="diff"> 직접 운전하거나</span> 자신<span class="diff">을 위하여 다른 사람에게</span> 운전하도록 지정하<span class="diff">여</span> 이용할 수 있는 <span class="diff">제3조에 따른</span> 시민을 말한다.</div>
+                </div>
+            </div>
+        
+            <div class="diff-section">
+                <div class="section-title">조항 2</div>
+                <div class="diff-row">
+                    <div class="city-column">하남시</div>
+                    <div class="content-column"><span class="item-num">4.</span> "이용자"란 이용대상자 중에서 <span class="diff">하남</span>시장(이하<span class="diff"> </span>"시장"이라 한다)의 승인을 <span class="diff">얻어</span> 공휴일 등에 공용차량을 이용하는 <span class="diff">자를</span> 말한다.</div>
+                </div>
+                <div class="diff-row">
+                    <div class="city-column">구미시</div>
+                    <div class="content-column"><span class="item-num">4.</span> "이용자"란 이용대상자 중에서 <span class="diff">구미</span>시장(이하"시장"이라 한다)의 승인을 <span class="diff">받아</span> 공휴일 등에 공용차량을 이용하는 <span class="diff">사람을</span> 말한다.</div>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
