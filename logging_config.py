@@ -49,7 +49,7 @@ def setup_logging(log_filename):
     root_logger = logging.getLogger()
 
     # 로그 레벨 설정 (DEBUG = 모든 로그 허용)
-    root_logger.setLevel(logging.INFO)
+    root_logger.setLevel(logging.DEBUG)
     # root_logger.setLevel(logging.CRITICAL + 1)
 
     # 기존 핸들러 제거 (중복 방지 - 여러 번 호출될 경우 대비)
